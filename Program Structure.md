@@ -1,4 +1,4 @@
-# FIRE — Financial Industry Route Engine- Program Sttructure
+# FIRE — Financial Industry Route Engine- Program Structure
 
 **Disaster-Resilient, SLA-Aware Payment Routing on XRPL**
 

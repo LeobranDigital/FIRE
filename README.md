@@ -1,4 +1,4 @@
-FIRE ( Financial Industry Router Engine )
+FIRE ( Financial Industry Route Engine )
 
 1. About LeObran:
 We are building FIRE – Financial Industry Route Engine.

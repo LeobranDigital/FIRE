@@ -1,0 +1,10 @@
+{
+  "sent_message": "XRPL_PAYMENT_INIT via Laser",
+  "sent_time": 1769533448.3643587,
+  "received_message": "XRPL_PAYMENT_CONFIRMED",
+  "received_time": 1769533465.3071754,
+  "confirmation_latency_ms": 16942.82,
+  "tx_hash": "C77A7C866221796ECA25FE310695E202F05BF7F61C04A5C2D9296C59B4EE06A3",
+  "route_used": "Laser",
+  "expected_latency_ms": 2.56
+}

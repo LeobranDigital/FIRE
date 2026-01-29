@@ -1,0 +1,6 @@
+{
+  "route_used": "Laser",
+  "expected_latency_ms": 1.46,
+  "confirmed_in_ms": 16600.22,
+  "tx_hash": "EE45610E647E58624297196BB625CDF13C60ED628F4B8DCCE3E565A4EBC501C6"
+}

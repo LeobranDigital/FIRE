@@ -1,0 +1,8 @@
+{
+  "tx_hash": "C88BAD33255C1CB77E82FBB0E2C0D8A6063867F608E601D247884A235A3E45CE",
+  "tx_result": "tesSUCCESS",
+  "ledger_index": 14404102,
+  "confirmation_latency_ms": 16307.81,
+  "route_used": "Optical (Weather-Affected)",
+  "expected_latency_ms": 3.98
+}

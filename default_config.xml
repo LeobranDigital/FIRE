@@ -1,0 +1,140 @@
+<simulation>
+
+  <!-- ========================= -->
+  <!-- Laser Configuration -->
+  <!-- ========================= -->
+  <laser>
+    <type>FSO-WDM</type>
+    <wavelength_nm>1550</wavelength_nm>
+    <bandwidth_gbps>500</bandwidth_gbps>
+    <modulation_delay_us>0.05</modulation_delay_us>
+    <encryption>AES-GCM-256</encryption>
+    <mode>continuous</mode> <!-- single / continuous -->
+  </laser>
+
+  <!-- ========================= -->
+  <!-- HAPS Configuration -->
+  <!-- ========================= -->
+  <haps>
+    <altitude_m>20000</altitude_m>
+    <speed_kmh>120</speed_kmh>
+    <orbit_radius_km>5</orbit_radius_km>
+  </haps>
+
+  <!-- ========================= -->
+  <!-- Fiber Configuration -->
+  <!-- ========================= -->
+  <fiber>
+    <latency_us>50</latency_us>
+    <capacity_gbps>1000</capacity_gbps>
+  </fiber>
+
+  <!-- ========================= -->
+  <!-- 5G Configuration -->
+  <!-- ========================= -->
+  <fiveG>
+    <latency_us>5</latency_us>
+    <capacity_gbps>10</capacity_gbps>
+  </fiveG>
+
+  <!-- ========================= -->
+  <!-- XRPL Node Configuration -->
+  <!-- ========================= -->
+  <xrpl>
+    <node_location>Tokyo</node_location>
+    <transaction_size_bytes>512</transaction_size_bytes>
+    <confirmation_time_ms>20</confirmation_time_ms>
+  </xrpl>
+
+  <!-- ========================= -->
+  <!-- Cities & Weather -->
+  <!-- ========================= -->
+  <cities>
+
+    <city name="Tokyo">
+      <latitude>35.6762</latitude>
+      <longitude>139.6503</longitude>
+      <elevation_m>40</elevation_m>
+      <default_weather>clear</default_weather>
+      <weather>
+        <visibility_km>15</visibility_km>
+        <humidity_percent>60</humidity_percent>
+        <cloud_cover_percent>20</cloud_cover_percent>
+        <fog>false</fog>
+        <rain_mm_per_hr>0</rain_mm_per_hr>
+        <snow_mm_per_hr>0</snow_mm_per_hr>
+        <refractive_index>1.00027</refractive_index>
+        <attenuation_factor>0.98</attenuation_factor>
+      </weather>
+    </city>
+
+    <city name="Osaka">
+      <latitude>34.6937</latitude>
+      <longitude>135.5023</longitude>
+      <elevation_m>50</elevation_m>
+      <default_weather>cloudy</default_weather>
+      <weather>
+        <visibility_km>10</visibility_km>
+        <humidity_percent>65</humidity_percent>
+        <cloud_cover_percent>50</cloud_cover_percent>
+        <fog>false</fog>
+        <rain_mm_per_hr>1</rain_mm_per_hr>
+        <snow_mm_per_hr>0</snow_mm_per_hr>
+        <refractive_index>1.00031</refractive_index>
+        <attenuation_factor>0.95</attenuation_factor>
+      </weather>
+    </city>
+
+    <city name="Nagoya">
+      <latitude>35.1815</latitude>
+      <longitude>136.9066</longitude>
+      <elevation_m>50</elevation_m>
+      <default_weather>clear</default_weather>
+      <weather>
+        <visibility_km>14</visibility_km>
+        <humidity_percent>55</humidity_percent>
+        <cloud_cover_percent>10</cloud_cover_percent>
+        <fog>false</fog>
+        <rain_mm_per_hr>0</rain_mm_per_hr>
+        <snow_mm_per_hr>0</snow_mm_per_hr>
+        <refractive_index>1.00028</refractive_index>
+        <attenuation_factor>0.99</attenuation_factor>
+      </weather>
+    </city>
+
+    <city name="Singapore">
+      <latitude>1.3521</latitude>
+      <longitude>103.8198</longitude>
+      <elevation_m>15</elevation_m>
+      <default_weather>humid</default_weather>
+      <weather>
+        <visibility_km>8</visibility_km>
+        <humidity_percent>85</humidity_percent>
+        <cloud_cover_percent>60</cloud_cover_percent>
+        <fog>false</fog>
+        <rain_mm_per_hr>5</rain_mm_per_hr>
+        <snow_mm_per_hr>0</snow_mm_per_hr>
+        <refractive_index>1.00035</refractive_index>
+        <attenuation_factor>0.93</attenuation_factor>
+      </weather>
+    </city>
+
+    <city name="London">
+      <latitude>51.5074</latitude>
+      <longitude>-0.1278</longitude>
+      <elevation_m>25</elevation_m>
+      <default_weather>rainy</default_weather>
+      <weather>
+        <visibility_km>7</visibility_km>
+        <humidity_percent>80</humidity_percent>
+        <cloud_cover_percent>70</cloud_cover_percent>
+        <fog>true</fog>
+        <rain_mm_per_hr>2</rain_mm_per_hr>
+        <snow_mm_per_hr>0</snow_mm_per_hr>
+        <refractive_index>1.00038</refractive_index>
+        <attenuation_factor>0.92</attenuation_factor>
+      </weather>
+    </city>
+
+  </cities>
+</simulation>

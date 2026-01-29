@@ -1,6 +1,4 @@
-# FIRE
-Financial Industry Route Engine
-
+FIRE ( Financial Industry Router Engine )
 
 1. About LeObran:
 We are building FIRE – Financial Industry Route Engine.
@@ -48,19 +46,19 @@ Current PoC includes:
 This PoC is designed to be extended to mainnet under mentor guidance.
 
 5. Alignment with JFIIP Key Domains:
-1. Next-Generation Payments:
-    • Real-time routing + XRPL settlement
-    • Low latency, transparent execution
-    • Suitable for domestic and cross-border payments
-2. Stablecoin Infrastructure (Future extension):
-    • FIRE can route JPY stablecoin flows with SLA guarantees
-    • Compatible with Japan’s stablecoin regulations
-3. Trade Finance (Future extension):
-    • Disaster-aware routing for SME exporters
-    • Prevent payment delays during logistics disruption
-4. Digital Asset Collateral & Credit:
-    • Route reliability score can be used as risk input
-    • Supports instant settlement + credit logic
+	1. Next-Generation Payments:
+		• Real-time routing + XRPL settlement
+		• Low latency, transparent execution
+		• Suitable for domestic and cross-border payments
+	2. Stablecoin Infrastructure (Future extension):
+		• FIRE can route JPY stablecoin flows with SLA guarantees
+		• Compatible with Japan’s stablecoin regulations
+	3. Trade Finance (Future extension):
+		• Disaster-aware routing for SME exporters
+		• Prevent payment delays during logistics disruption
+	4. Digital Asset Collateral & Credit:
+		• Route reliability score can be used as risk input
+		• Supports instant settlement + credit logic
 
 6. Why This Matters for Japan:
 Japan requires:
@@ -88,15 +86,3 @@ We are ready to iterate fast with JFIIP mentors and partners.
     • We will follow regulatory guidance strictly
     • We aim for commercially usable infrastructure, not demos only
     • We want to contribute long-term to Japan’s financial ecosystem
-
-
-Tokyo to Osaka  450-KM Data Transfer:
-Medium	Tokyo ⇄ Osaka Latency	Notes
-Laser (HAPS)	~1.7 ms	Fastest, weather-sensitive
-Fiber	~5–10 ms	Reliable, slower
-5G	~25–40 ms	Not suitable for long-haul
-✅ Physics-based laser propagation
-✅ Weather-driven availability
-✅ Automatic fallback (Laser → Fiber → 5G)
-✅ Quantified benefit (≈ 5× faster than fiber, 20× faster than 5G)
-✅ Clear use case: XRPL ultra-low-latency routing .

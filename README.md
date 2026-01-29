@@ -225,7 +225,6 @@ This signals:
 
 ### 2️⃣ FIRE split into **Core Decision Layer + Governance Layer**
 
-This is subtle but powerful.
 
 It tells JFIIP:
 
@@ -233,7 +232,6 @@ It tells JFIIP:
 * “Regulators can reason about this system”
 * “This can be production-grade”
 
-This alone separates you from 80% of Web3 demos.
 
 ---
 
@@ -285,7 +283,6 @@ signals:
 > It evaluates real-world infrastructure conditions, SLA risk, and compliance constraints, selects the safest route, and then anchors the final transaction on XRPL for atomic, auditable settlement.
 > XRPL is used as regulated financial infrastructure, not as a transport layer.”
 
-That sentence is **gold**.
 
 ---
 

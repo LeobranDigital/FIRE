@@ -141,7 +141,7 @@ We are ready to iterate fast with JFIIP mentors and partners.
 ---
 ---
 
-# 🔷 FIRE — JFIIP-Aligned Architecture Diagram (Phase-2)
+# 🔷 FIRE — JFIIP- Architecture Diagram (Phase-2)
 
 
 ### (Updated to reflect **regulation-first**, **XRPL PoC**, and **Japan financial infrastructure**)

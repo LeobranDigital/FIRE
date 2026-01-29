@@ -139,3 +139,167 @@ We are ready to iterate fast with JFIIP mentors and partners.
 * We want to contribute long-term to Japan’s financial ecosystem
 
 ---
+---
+
+# 🔷 FIRE — JFIIP-Aligned Architecture Diagram (Phase-2)
+
+
+### (Updated to reflect **regulation-first**, **XRPL PoC**, and **Japan financial infrastructure**)
+
+```
+┌─────────────────────────────────────────────┐
+│      Financial Institution / Partner        │
+│  (Bank, Payment Provider, Trade Platform)   │
+│                                             │
+│  • Payment / Settlement Instruction         │
+│  • SLA & Compliance Requirements             │
+└───────────────────┬─────────────────────────┘
+                    │
+                    │  Payment Intent
+                    ▼
+┌────────────────────────────────────────────────────────┐
+│          FIRE — Financial Industry Route Engine         │
+│                                                        │
+│  Core Decision Layer (Our IP):                          │
+│  • Scenario Engine (Weather / Disaster / Latency)       │
+│  • SLA & Cost Impact Evaluation                         │
+│  • Route Scoring & Failover Logic                       │
+│  • Regulatory & Corridor Tagging (JP / Intl)            │
+│                                                        │
+│  Governance & Compliance Layer:                         │
+│  • Non-custodial Execution                              │
+│  • Audit Metadata Generation                            │
+│  • Regulator-friendly Evidence (no PII)                 │
+└───────────────┬───────────────────────┬────────────────┘
+                │                       │
+                │ Selected Route        │ Compliance Metadata
+                │                       │
+                ▼                       ▼
+┌──────────────┐   ┌──────────────┐   ┌──────────────┐
+│ Optical /    │   │ Fiber         │   │ 5G / LTE     │
+│ Laser (FSO)  │   │ Network       │   │ Emergency    │
+│ Ultra-Low    │   │ Stable Path   │   │ Fallback     │
+│ Latency      │   │               │   │              │
+└──────┬───────┘   └──────┬───────┘   └──────┬───────┘
+       │                  │                  │
+       └──────────────┬───┴──────────────────┘
+                      │
+                      ▼
+┌────────────────────────────────────────────────────────┐
+│               XRPL Settlement Infrastructure            │
+│                                                        │
+│  • Atomic Payment Execution                             │
+│  • Deterministic Finality                               │
+│  • Memo: Route | Latency | Scenario | Corridor          │
+│  • Public, Verifiable Ledger                            │
+│                                                        │
+│  (PoC on XRPL Testnet → Mainnet with JFIIP guidance)    │
+└───────────────┬────────────────────────────────────────┘
+                │
+                ▼
+┌────────────────────────────────────────────────────────┐
+│        Audit, Monitoring & Regulatory Review             │
+│                                                        │
+│  • TX Hash & Ledger Verification                        │
+│  • Timing (T0–T2) & SLA Evidence                        │
+│  • Reliability / Throughput Metrics                    │
+│  • Inputs for Institutional & Regulator Review          │
+└────────────────────────────────────────────────────────┘
+```
+
+---
+
+# 🧠 How This Is **Better Aligned with JFIIP**
+
+### What changed (important):
+
+### 1️⃣ “Client / Bank App” → **Financial Institution / Partner**
+
+This signals:
+
+* you are **not a retail app**
+* you expect **real institutions** in the loop
+* perfect match for JFIIP consortium model
+
+---
+
+### 2️⃣ FIRE split into **Core Decision Layer + Governance Layer**
+
+This is subtle but powerful.
+
+It tells JFIIP:
+
+* “We know routing logic ≠ compliance”
+* “Regulators can reason about this system”
+* “This can be production-grade”
+
+This alone separates you from 80% of Web3 demos.
+
+---
+
+### 3️⃣ Explicit **Regulatory & Corridor Tagging**
+
+We now clearly show:
+
+* Japan domestic corridor
+* Future international corridor
+* No custody, no PII on chain
+
+This aligns with:
+
+* Stablecoin frameworks
+* Payment Services Act mindset
+* JFIIP’s “not just prototypes” goal
+
+---
+
+### 4️⃣ XRPL framed as **Settlement Infrastructure**
+
+Not:
+
+> “XRPL is fast”
+
+But:
+
+> “XRPL provides deterministic finality, auditability, and compliance-friendly settlement.”
+
+---
+
+### 5️⃣ Clear PoC → Mainnet Path
+
+The line:
+
+> “PoC on XRPL Testnet → Mainnet with JFIIP guidance”
+
+signals:
+
+* humility
+* collaboration
+* seriousness
+
+---
+
+# 🎤 20-Second Explanation
+
+> “FIRE sits before settlement.
+> It evaluates real-world infrastructure conditions, SLA risk, and compliance constraints, selects the safest route, and then anchors the final transaction on XRPL for atomic, auditable settlement.
+> XRPL is used as regulated financial infrastructure, not as a transport layer.”
+
+That sentence is **gold**.
+
+---
+
+# ✅ JFIIP Checklist — PASSED
+
+| JFIIP Expectation    | Status |
+| -------------------- | ------ |
+| XRPL PoC             | ✅      |
+| Regulatory awareness | ✅      |
+| Infrastructure focus | ✅      |
+| Disaster resilience  | ✅      |
+| Japan relevance      | ✅      |
+| Commercial pathway   | ✅      |
+
+---
+
+

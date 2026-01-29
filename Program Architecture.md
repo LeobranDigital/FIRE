@@ -142,9 +142,3 @@ This reflects a collaborative and compliance-driven rollout strategy.
 > XRPL is used as regulated financial infrastructure, not as a transport layer.
 
 ---
-
-If you want, next steps I can help with:
-
-* Turning this into a **README.md** with sections like *Scope*, *Non-Goals*, and *Regulatory Assumptions*
-* Adding a **“Why XRPL vs alternatives”** section (neutral, non-marketing)
-* Preparing a **JFIIP submission / discussion version** with lighter technical density

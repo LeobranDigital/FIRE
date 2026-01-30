@@ -1,2 +1,4 @@
-Python Code will be released soon.
+Please see output on screenshots for FIRE working and Ripple Execution Between Tokyo to Osaka.
+Python Code will be release soon. 
+
 
